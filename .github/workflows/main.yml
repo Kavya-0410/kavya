@@ -1,0 +1,19 @@
+name:CI with github Actions
+on: [push]
+
+jobs:
+build:
+runs-on:ubuntu-lqtest
+steps:-uses:actions/checkout@v2
+-name:PrintMessage
+cat > .github/workflows/main.yml <<EOF
+name:CI with github Actions
+on: [push]
+
+jobs:
+build:
+runs-on:ubuntu-lqtest
+steps:-uses:actions/checkout@v2
+-name:PrintMessage
+
+run:echo "hi:
