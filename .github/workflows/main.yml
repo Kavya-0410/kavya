@@ -1,9 +1,9 @@
 name:CI with github Actions
 on:[push]
 
-jobs : 
+jobs: 
 build:
-runs-on: ubuntu-lqtest
+runs-on: ubuntu-latest
 steps:
 -uses:actions/checkout@v2
 -name:PrintMessage
