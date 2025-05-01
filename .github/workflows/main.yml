@@ -1,9 +1,10 @@
 name:CI with github Actions
 on:[push]
 
-jobs:
+jobs : 
 build:
-runs-on:ubuntu-lqtest
-steps:-uses:actions/checkout@v2
+runs-on: ubuntu-lqtest
+steps:
+-uses:actions/checkout@v2
 -name:PrintMessage
 run:echo "HI"
