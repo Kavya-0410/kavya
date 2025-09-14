@@ -1,4 +1,4 @@
-# Assignment Repository - Kavya
+# Assignment Repository(DevTown) - Kavya
 
 This repository contains my GitHub-based assignment as per the given instructions. It demonstrates my understanding of version control, branching, pull requests, and basic CI/CD using GitHub Actions.
 
